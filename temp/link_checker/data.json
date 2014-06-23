@@ -132,6 +132,54 @@
         "url": null,
         "file": "_posts/hello-world.md"
       }
+    },
+    {
+      "id": "hws4xxab00q4bef148ew8cou",
+      "url": "http://hexo.io/docs/setup.html",
+      "lastChecked": null,
+      "success": null,
+      "redirects": [],
+      "link": {
+        "type": "Text",
+        "label": "Hexo Setup"
+      },
+      "source": {
+        "title": "Hello World",
+        "url": null,
+        "file": "_posts/hello-world.md"
+      }
+    },
+    {
+      "id": "hws4xxac00q4bef148ewfknj",
+      "url": "http://hexo.io/docs/configuration.html",
+      "lastChecked": null,
+      "success": null,
+      "redirects": [],
+      "link": {
+        "type": "Text",
+        "label": "Hexo Configuration"
+      },
+      "source": {
+        "title": "Hello World",
+        "url": null,
+        "file": "_posts/hello-world.md"
+      }
+    },
+    {
+      "id": "hws4xxac00q4bef148ewh3ft",
+      "url": "https://github.com/akfish/hexo-tag-uml",
+      "lastChecked": null,
+      "success": null,
+      "redirects": [],
+      "link": {
+        "type": "Text",
+        "label": "Jumly plugin"
+      },
+      "source": {
+        "title": "Hello World",
+        "url": null,
+        "file": "_posts/hello-world.md"
+      }
     }
   ]
 }
