@@ -85,7 +85,7 @@ plugins:
   - Hexo-summarizer
   - hexo-tag-uml
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: phase
+theme: phaseMalys
 exclude_generator:
 
 # Deployment
@@ -93,7 +93,7 @@ exclude_generator:
 deploy:
   type: github
   repo: https://github.com/malys/malys.github.io.git
-  branch: master
+  branch: gh-pages
   
   # hexo-broken-link-checker plugin
 link_checker:

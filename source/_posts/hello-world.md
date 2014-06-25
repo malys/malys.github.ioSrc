@@ -6,9 +6,10 @@ tags:
 	- Blog
 ---
 
+[Hexo](http://hexo.io/) est une plateforme de blog 'statique'.
+Le code est généré et déployé par la suite. Il est très orienté *Geek* mais très facile à mettre en oeuvre, à utiliser et à héberger.
 
-Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [trobuleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/tommy351/hexo/issues).
-
+Il est basé sur la technologie *NodeJS*.
 
 ## Quick Start
 
@@ -86,8 +87,6 @@ Déployer le site sur Github Pages.
 ``` bash
 $ hexo deploy
 ```
-Au bout de 5mn le site est disponible sur `http://xxxx.github.io`.
-
 
 ### UML
 
@@ -96,19 +95,18 @@ Suivre les instructions sur [Jumly plugin](https://github.com/akfish/hexo-tag-um
 On décrit le diagramme en ajoutant les balises `uml` `enduml`.
 
 ```
-@found "You", ->
+@found "Malys", ->
   @message "Think", ->
     @message "Write your idea", "JUMLY", ->
       @create "Diagram"
 jumly.css "background-color":"#8CC84B"
 ```
 Le code est alors interprété :
-```
+
 {% uml %}
 @found "Malys", ->
   @message "Think", ->
-    @message "Write his post", "HEXO", ->
-      @create "Post"
+    @message "Write your idea", "JUMLY", ->
+      @create "Diagram"
 jumly.css "background-color":"#8CC84B"
 {% enduml %}
-```
