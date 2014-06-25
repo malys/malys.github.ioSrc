@@ -93,7 +93,7 @@ exclude_generator:
 deploy:
   type: github
   repo: https://github.com/malys/malys.github.io.git
-  branch: gh-pages
+  branch: master
   
   # hexo-broken-link-checker plugin
 link_checker:
