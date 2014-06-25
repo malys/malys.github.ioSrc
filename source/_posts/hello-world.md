@@ -51,15 +51,14 @@ More info: [Deployment](http://hexo.io/docs/deployment.html)
 
 Créer un dépôt sur GitHub.
 ``` bash
-git clone https://github.com/xxxx/xxxx.github.io.git
-cd xxxx.github.io.git
+git clone https://github.com/xxxx/xxxx.github.ioSrc.git
+cd xxxx.github.io.gitSrc
 ```
 
-Créer une nouvelle branche `gh-pages`.
 ``` bash
-$ git branch gh-pages
-$ git push origin gh-pages
+$ npm install
 ```
+
 Installer hexo.
 ``` bash
 $ npm install hexo -g
@@ -74,9 +73,9 @@ Configurer Hexo : [Hexo Configuration](http://hexo.io/docs/configuration.html)
 deploy:
   type: github
   repo: https://github.com/xxxx/xxxx.github.io.git
-  branch: gh-pages
+  branch: master
 ```
-Au final, le code source du site sera sur la branche `master` et le code généré sur `gh-pages`.
+Au final, le code source du site sera sur la branche `master` de *github.com/xxxx/xxxx.github.ioSrc* et le code généré sur `master` de *github.com/xxxx/xxxx.github.io*
 
 Générer le site.
 ``` bash
