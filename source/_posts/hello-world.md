@@ -1,4 +1,5 @@
 title: Hello Hexo
+date: 2014/5/01 20:46:25
 categories:
 	- Technologie
 tags:
