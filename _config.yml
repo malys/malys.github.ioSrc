@@ -84,6 +84,7 @@ plugins:
   - hexo-broken-link-checker
   - Hexo-summarizer
   - hexo-tag-uml
+  - hexo-local-image
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 theme: phaseMalys
 exclude_generator:
