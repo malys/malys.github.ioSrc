@@ -20,7 +20,7 @@ Il est basé sur la technologie *NodeJS*.
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](http://hexo.io/docs/writing.html)
+Plus d'informations : [Ecriture](http://hexo.io/docs/writing.html)
 
 ### Lancer le serveur
 
@@ -28,7 +28,7 @@ More info: [Writing](http://hexo.io/docs/writing.html)
 $ hexo server
 ```
 
-Plus d'informations : [Server](http://hexo.io/docs/server.html)
+Plus d'informations : [Serveur](http://hexo.io/docs/server.html)
 
 ### Générer le site
 
@@ -36,7 +36,7 @@ Plus d'informations : [Server](http://hexo.io/docs/server.html)
 $ hexo generate
 ```
 
-Plus d'informations : [Generating](http://hexo.io/docs/generating.html)
+Plus d'informations : [Génération](http://hexo.io/docs/generating.html)
 
 ### Déploiement
 
@@ -44,7 +44,7 @@ Plus d'informations : [Generating](http://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](http://hexo.io/docs/deployment.html)
+Plus d'informations : [Déploiement](http://hexo.io/docs/deployment.html)
 
 ## Configuration avancée
 

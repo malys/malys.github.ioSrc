@@ -3,7 +3,7 @@ date: 2014-06-25 09:16:30
 categories:
 	- Git
 tags:
-    - Astuces
+    - Astuce
 ---
 
 Les checkout **Git** peuvent se faire par l'intermédiare d'une adresse du type *git://* ou *https://*.
